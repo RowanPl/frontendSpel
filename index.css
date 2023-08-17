@@ -1,0 +1,144 @@
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Areas
+        3.1 Area 1
+        3.2 Area 2
+        3.3 etc.
+////////////////////////*/
+
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: ghostwhite;
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+
+/* ------------------------------- 3. Areas ---------------------------------------- */
+
+
+/* --------------- 3.1 Area 1 ------------------------- */
+.container{
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100vw
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: white;
+    /*background-color: #464646;*/
+    text-shadow: 2px 2px 2px #4c4c4c;
+    -webkit-text-stroke: 1px black;
+}
+
+.input-message{
+font-size: 20px;
+}
+
+.start-container{
+    display: flex;
+    padding: 0 30px 30px 30px;
+    justify-content: center;
+}
+.start-container > button{
+padding: 10px;
+    background-color: #4c4c4c;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    margin-left: -2px;
+}
+.start-container > input{
+    background-color: #6a6a6a;
+    color: white;
+    padding-left: 20px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    width: 20%;
+}
+
+.guess-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+}
+
+
+.guess-input-container{
+    display: flex;
+margin: 0 auto 0 auto;
+    justify-self: center;
+}
+.guess-input-inner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.guess-input-inner-container > input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    background-color: #6a6a6a;
+    color: white;
+}
+
+.guess-input-container > button{
+    justify-self: center;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #4c4c4c;
+    scale: 1.015;
+    width: 70px;
+}
+.guess-input-container > button:disabled{
+    background-color: #ff0000;
+    color: white;
+}
+
+.punten{
+    align-self: center;
+}
+.message{
+    align-self: center;
+    font-size: 20px;
+    color: white;
+    background-color: #4c4c4c;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    background-color: #4c4c4c;
+    padding: 4px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+
+}
+
+/* --------------- 3.2 Area 2 ------------------------
